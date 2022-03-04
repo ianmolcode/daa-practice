@@ -34,6 +34,8 @@ void solve()
     {
         if(arr[i]==to_find){
             cout << to_find << " found and no of comparisons were " << i << ln;
+        }else if(i=n-1){
+            cout << "Not found" << ln;
         }
     }
     
